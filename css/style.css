@@ -104,21 +104,8 @@ main {
     }
 }
 
-/* Social Icons */
-.social-icons {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    display: flex;
-    flex-direction: column;
-}
 
-.social-icons img {
-    width: 20px;
-    height: auto;
-}
 
-/* Small Drink Images at Bottom */
 .small-drinks {
     display: flex;
     justify-content: center;
@@ -156,7 +143,7 @@ main {
 
 
 
-/* Main Product Page Styling */
+
 /* Product List Section */
 .product-list {
     width: 80%;
@@ -226,6 +213,78 @@ main {
 }
 
 
+
+
+/* Contact Section */
+.contact-section {
+    width: 80%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #007042;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333;
+    display: block;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: #007042;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #005a30;
+}
+
+.contact-details {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-details h3 {
+    font-size: 1.8rem;
+    color: #007042;
+}
+
+.contact-details p {
+    font-size: 1.2rem;
+    color: #555;
+}
 
 
 
